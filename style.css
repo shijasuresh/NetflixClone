@@ -123,3 +123,56 @@ body {
 .svg-mt {
     margin-top: 5px;
 }
+
+section {
+    border-bottom: 8px solid rgba(128, 128, 128, 0.275);
+}
+
+.container {
+    color: white;
+    display: flex;
+    width: 1190px;
+    margin: 100px auto;
+    gap: 80px;
+    align-items: center;
+}
+
+.left {
+    width: 50%;
+}
+
+.right {
+    width: 50%;
+}
+
+.heading {
+    font-size: 3rem;
+    font-weight: 900;
+    margin: 0;
+}
+
+.sub-heading {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin: 1rem 0 0;
+}
+
+.real-tv {
+    position: relative;
+    display: block;
+
+}
+
+.video {
+    position: absolute;
+    width: 80%;
+    height: 90%;    
+    object-fit: contain;
+    margin-left: 75px;
+    margin-top: 22px;
+}
+
+.tv {
+    position: relative;
+    width: 100%;
+}
