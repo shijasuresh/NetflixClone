@@ -265,7 +265,7 @@ section {
 
 .faqs {
     width: 1190px;
-    padding: 5px 25px;
+    padding: 3px 25px;
     box-sizing: content-box;
     color: white;
     display: flex;
@@ -273,6 +273,60 @@ section {
     align-items: center;
     background-color: rgb(45, 45, 45);
     font-size: 24px;
-    width: 1190px;
+    width: 1130px;
     left: 50%;
+}
+
+.ready-to-watch {
+    text-align: center;
+}
+
+.ready-p {
+    margin-top: 40px;
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+.mb {
+    margin-bottom: 50px;
+}
+
+.div-footer {
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: 400;
+    margin-top: 5rem;
+    margin-left: 10rem;
+    width: 1000px;
+    margin-bottom: 5rem;
+}
+
+.footer-p {
+    margin-top: 40px; 
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.footer-a {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.footer-links {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.div-links {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 10px;
+}
+
+.footer-netflix {
+    font-size: 0.875rem;
+    margin-top: 20px;
 }
